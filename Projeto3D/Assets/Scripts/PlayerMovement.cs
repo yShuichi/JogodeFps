@@ -5,12 +5,6 @@ using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
-
-   
-   
-
-
-
     [Header("Movement")]
     public float moveSpeed;
 
@@ -33,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     bool grounded;
 
     public Transform orientation;
+    public Animator animControl;
 
     float horizontalInput;
     float verticalInput;
@@ -47,9 +42,7 @@ public class PlayerMovement : MonoBehaviour
         rb.freezeRotation = true;
 
         readyToJump = true;
-
-        
-
+        animControl = GetComponentInChildren<Animator>();
 
     }
 
@@ -78,6 +71,17 @@ public class PlayerMovement : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
+        if (horizontalInput > 0 || verticalInput > 0 || verticalInput < 0 || horizontalInput < 0) {
+
+            animControl.SetBool("Idle", false);
+            animControl.SetBool("Walking", true);
+        }else {
+
+            animControl.SetBool("Idle", true);
+            animControl.SetBool("Walking", false);
+
+        }
+
         // when to jump
         if(Input.GetKey(jumpKey) && readyToJump && grounded)
         {
@@ -94,27 +98,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovePlayer()
     {
-
-        
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         // calculate movement direction
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 

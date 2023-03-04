@@ -11,13 +11,13 @@ C:\Users\Noturno\Documents\2021.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Noturno/Documents/Projeto3D
+C:/Users/Noturno/Documents/GitHub/JogodeFps/Projeto3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56448
-Successfully changed project path to: C:/Users/Noturno/Documents/Projeto3D
-C:/Users/Noturno/Documents/Projeto3D
+59094
+Successfully changed project path to: C:/Users/Noturno/Documents/GitHub/JogodeFps/Projeto3D
+C:/Users/Noturno/Documents/GitHub/JogodeFps/Projeto3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ C:/Users/Noturno/Documents/Projeto3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31236] Host "[IP] 169.254.106.191 [Port] 0 [Flags] 2 [Guid] 603594671 [EditorId] 603594671 [Version] 1048832 [Id] WindowsEditor(7,LABJOGOS-28) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12976] Host "[IP] 172.16.17.28 [Port] 0 [Flags] 2 [Guid] 4055776143 [EditorId] 4055776143 [Version] 1048832 [Id] WindowsEditor(7,LABJOGOS-28) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [31236] Host "[IP] 169.254.106.191 [Port] 0 [Flags] 2 [Guid] 603594671 [EditorId] 603594671 [Version] 1048832 [Id] WindowsEditor(7,LABJOGOS-28) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12976] Host "[IP] 172.16.17.28 [Port] 0 [Flags] 2 [Guid] 4055776143 [EditorId] 4055776143 [Version] 1048832 [Id] WindowsEditor(7,LABJOGOS-28) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 60.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 61.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Users/Noturno/Documents/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Noturno/Documents/Projeto3D/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Noturno/Documents/GitHub/JogodeFps/Projeto3D/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,79 +67,79 @@ Initialize mono
 Mono path[0] = 'C:/Users/Noturno/Documents/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/Noturno/Documents/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Users/Noturno/Documents/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/Noturno/Documents/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Users/Noturno/Documents/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002786 seconds.
+Registered in 0.002905 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 62.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.473 seconds
+- Completed reload, in  0.535 seconds
 Domain Reload Profiling:
-	ReloadAssembly (473ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (535ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (340ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (376ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (77ms)
+			SetupTypeCache (90ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (201ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (220ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (63ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003052 seconds.
+Registered in 0.003460 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Noturno\Documents\Projeto3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Noturno\Documents\Projeto3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Noturno\Documents\GitHub\JogodeFps\Projeto3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Noturno\Documents\GitHub\JogodeFps\Projeto3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.714 seconds
+- Completed reload, in  0.786 seconds
 Domain Reload Profiling:
-	ReloadAssembly (715ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (787ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (557ms)
-			LoadAssemblies (52ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
+			SetupTypeCache (225ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (243ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (249ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (63ms)
 				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
@@ -147,12 +147,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (113.8 KB). Loaded Objects now: 3511.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.9 KB). Loaded Objects now: 3512.
 Memory consumption went from 107.6 MB to 107.5 MB.
-Total: 2.848800 ms (FindLiveObjects: 0.186100 ms CreateObjectMapping: 0.083500 ms MarkObjects: 2.472100 ms  DeleteObjects: 0.106100 ms)
+Total: 3.224200 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.109600 ms MarkObjects: 2.664700 ms  DeleteObjects: 0.184900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,25 +167,77 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 345234.393468 seconds.
-  path: Assets/Scripts/PlayerMovementTutorial.cs
-  artifactKey: Guid(be8edda5a704dd6449d5cae4ea9f5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovementTutorial.cs using Guid(be8edda5a704dd6449d5cae4ea9f5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3db3848115a94e7b83425b746005002') in 0.044343 seconds 
+  Time since last request: 32739.803625 seconds.
+  path: Assets/Scripts/MoveCamera.cs
+  artifactKey: Guid(b9937563935c8fa4f8395ad8a7c8d3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MoveCamera.cs using Guid(b9937563935c8fa4f8395ad8a7c8d3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db474c54d5f21a5727ac163e3bcd4dae') in 0.051410 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.744523 seconds.
+  Time since last request: 14.375572 seconds.
   path: Assets/Scripts/PlayerMovement.cs
   artifactKey: Guid(be8edda5a704dd6449d5cae4ea9f5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(be8edda5a704dd6449d5cae4ea9f5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf420d5da59afc8116c0d4b68076c07') in 0.005066 seconds 
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(be8edda5a704dd6449d5cae4ea9f5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513cef936b6480e30b81dcaabd3127c6') in 0.007693 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.298568 seconds.
-  path: Assets/Scripts/PlayerMovementTutorial.cs
-  artifactKey: Guid(7e418933db2e3ca479716b316cab6854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovementTutorial.cs using Guid(7e418933db2e3ca479716b316cab6854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190283a63c37edb6f431b839a12b811f') in 0.004183 seconds 
+  Time since last request: 7.941185 seconds.
+  path: Assets/Scripts/GunSystem.cs
+  artifactKey: Guid(0eca735a9a202d841815fa447c1e7d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GunSystem.cs using Guid(0eca735a9a202d841815fa447c1e7d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0099dbc95691c096b6fa3d3bfb76d57e') in 0.005114 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.446205 seconds.
-  path: Assets/Scripts/PlayerMovement.cs
-  artifactKey: Guid(be8edda5a704dd6449d5cae4ea9f5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMovement.cs using Guid(be8edda5a704dd6449d5cae4ea9f5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f7cfd894df7ec0d35163267d607f99') in 0.001921 seconds 
+  Time since last request: 504.432471 seconds.
+  path: Assets/Sci Fi Gun Light
+  artifactKey: Guid(d90739f6c52f87d4599b424f4dbb0801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci Fi Gun Light using Guid(d90739f6c52f87d4599b424f4dbb0801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0657a1d89647e5d142d109674172b05b') in 0.007766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.117120 seconds.
+  path: Assets/Sci Fi Gun Light/_models
+  artifactKey: Guid(33f9dadd88dcf4745a5f22e0c5b26f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci Fi Gun Light/_models using Guid(33f9dadd88dcf4745a5f22e0c5b26f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053a4e50f747671a07c8c51932f7e701') in 0.004701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.111969 seconds.
+  path: Assets/Sci Fi Gun Light/_models/GunHeavy.FBX
+  artifactKey: Guid(584761fab006d6d42b4d0d8c56a51241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci Fi Gun Light/_models/GunHeavy.FBX using Guid(584761fab006d6d42b4d0d8c56a51241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5177e57a8148aa437f929a684b898088') in 0.100919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.442328 seconds.
+  path: Assets/Sci Fi Gun Light/_prefabs
+  artifactKey: Guid(14dbb18d3678c234da1023e170abe6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci Fi Gun Light/_prefabs using Guid(14dbb18d3678c234da1023e170abe6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61696a2c00717811deaa5ab303c06095') in 0.004741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.247262 seconds.
+  path: Assets/Sci Fi Gun Light/_prefabs/GunLight
+  artifactKey: Guid(725e685d852ada3489cd8f7d9f441221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci Fi Gun Light/_prefabs/GunLight using Guid(725e685d852ada3489cd8f7d9f441221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e0a591a7e4814f08ba5289b3ab7e01') in 0.005197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079901 seconds.
+  path: Assets/Sci Fi Gun Light/_prefabs/GunLight/SciFiGunLightBlack.prefab
+  artifactKey: Guid(a4e476a037022df448ead5d0ceea7d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci Fi Gun Light/_prefabs/GunLight/SciFiGunLightBlack.prefab using Guid(a4e476a037022df448ead5d0ceea7d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57528f5991e5d0e873486439f9d6ecc4') in 0.219504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sci Fi Gun Light/_prefabs/GunLight/SciFiGunLightWhite.prefab
+  artifactKey: Guid(1d8e61deede12df46b37e582ad640c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci Fi Gun Light/_prefabs/GunLight/SciFiGunLightWhite.prefab using Guid(1d8e61deede12df46b37e582ad640c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88e32c6c2c65a79a6a570dee2b3e6b4') in 0.022894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sci Fi Gun Light/_prefabs/GunLight/SciFiGunLightYellow.prefab
+  artifactKey: Guid(841f0ca7a430c324d92c5583a9df3793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci Fi Gun Light/_prefabs/GunLight/SciFiGunLightYellow.prefab using Guid(841f0ca7a430c324d92c5583a9df3793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b20c2282b37c81a6a0bd43865301392') in 0.018688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sci Fi Gun Light/_prefabs/GunLight/SciFiGunLightRad.prefab
+  artifactKey: Guid(2c3055a11cb8f8540a181490a4c34b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci Fi Gun Light/_prefabs/GunLight/SciFiGunLightRad.prefab using Guid(2c3055a11cb8f8540a181490a4c34b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512c3ec42ddeba3a1b76ca990f8d6dc6') in 0.018051 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
