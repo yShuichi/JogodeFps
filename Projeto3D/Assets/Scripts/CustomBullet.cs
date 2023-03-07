@@ -38,16 +38,17 @@ public class CustomBullet : MonoBehaviour
     private void Start()
     {
         Setup();
+        Destroy(gameObject, 10);
     }
 
     private void Update()
     {
         //When to explode:
-        if (collisions > maxCollisions) Explode();
+        /*if (collisions > maxCollisions) Explode();
 
         //Count down lifetime
         maxLifetime -= Time.deltaTime;
-        if (maxLifetime <= 0) Explode();
+        if (maxLifetime <= 0) Explode();*/
     }
 
     private void Explode()
@@ -73,19 +74,23 @@ public class CustomBullet : MonoBehaviour
         Invoke("Delay", 0.05f);
     }
 
-    private void Damage(Collision enemy) 
-    {
-
-        enemy.GetComponent<EnemyAI>.TakeDamage(damage);
-
-    }
-
     private void Delay()
     {
         Destroy(gameObject);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    /*void OnCollisionEnter(Collision collision) {
+
+        if (collision.gameObject.tag == "Enemy") {
+
+
+            Destroy(gameObject);
+
+        }
+
+    }*/
+
+    /*private void OnCollisionEnter(Collision collision)
     {
         //Don't count collisions with other bullets
         if (collision.collider.CompareTag("Bullet")) return;
@@ -96,12 +101,18 @@ public class CustomBullet : MonoBehaviour
         //Explode if bullet hits an enemy directly and explodeOnTouch is activated and bullet is explosive
         if (collision.collider.CompareTag("Enemy") && explodeOnTouch && isExplosive) Explode();
 
-        if (collision.collider.CompareTag("Enemy") && isExplosive == false) Damage(collision);
+        if (collision.transform.tag == "Enemy" && isExplosive == false)
+
+        if (collision.gameObject.tag == "Enemy") {
 
 
+            Debug.Log("Colidiu");
+            collision.gameObject.GetComponent<EnemyAI>().TakeDamage(damage);
 
-        
-    }
+            Destroy(gameObject);
+
+        }
+    }*/
 
     private void Setup()
     {

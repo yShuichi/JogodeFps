@@ -11,7 +11,7 @@ public class EnemyAI : MonoBehaviour
     void Start()
     {
         health = 100;
-        animController = GetComponentInParent<Animator>();
+       
     }
 
     // Update is called once per frame
@@ -26,15 +26,25 @@ public class EnemyAI : MonoBehaviour
 
         if (this.health <= 0) {
 
-            animController.SetBool("Idle", false);
-            animController.SetBool("Dead", true);
 
-            Destroy(transform.parent.gameObject, 3);
+            Destroy(gameObject);
 
 
 
         }
+    }
 
+    void OnCollisionEnter(Collision collision) {
+
+
+        if (collision.gameObject.tag == "Bullet") {
+
+            Debug.Log("Colidiu com a bala");
+            TakeDamage(collision.gameObject.GetComponent<CustomBullet>().damage);
+            Destroy(collision.gameObject);
+
+        }
 
     }
+
 }
