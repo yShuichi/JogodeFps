@@ -38,6 +38,8 @@ public class ProjectileGun : MonoBehaviour
 
     //Graphics
     public GameObject muzzleFlash;
+    private GameObject muzzleFlashInstance;
+    public GameObject muzzleFlashParent;
     public TextMeshProUGUI ammunitionDisplay;
 
     //bug fixing :D
@@ -115,7 +117,9 @@ public class ProjectileGun : MonoBehaviour
 
         //Instantiate muzzle flash, if you have one
         if (muzzleFlash != null)
-            Instantiate(muzzleFlash, attackPoint.position, Quaternion.identity);
+            muzzleFlashInstance = Instantiate(muzzleFlash, attackPoint.position, Quaternion.identity);
+            muzzleFlashInstance.transform.parent = muzzleFlashParent.transform;
+            Destroy(muzzleFlashInstance, 0.3f);
 
         bulletsLeft--;
         bulletsShot++;

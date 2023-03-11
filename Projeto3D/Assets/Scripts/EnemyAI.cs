@@ -5,18 +5,20 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
     public float health;
-    public Animator animController;
+    public GameObject Jogador;
 
 
     void Start()
     {
         health = 100;
+        Jogador = GameObject.FindGameObjectWithTag("Player");
        
     }
 
-    // Update is called once per frame
     void Update()
     {
+        
+        transform.LookAt(Jogador.transform.position);
         
     }
 

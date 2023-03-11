@@ -38,7 +38,7 @@ public class CustomBullet : MonoBehaviour
     private void Start()
     {
         Setup();
-        Destroy(gameObject, 10);
+        Destroy(gameObject, 10f);
     }
 
     private void Update()
