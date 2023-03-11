@@ -8,6 +8,8 @@ TagManager:
   - FxTemporaire
   - Bullet
   - Gun
+  - EnemyBullet
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - Enemy
   - Bullet
   - Player
-  - 
+  - EnemyBullet
   - 
   - 
   - 

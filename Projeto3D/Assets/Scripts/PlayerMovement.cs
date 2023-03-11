@@ -35,14 +35,19 @@ public class PlayerMovement : MonoBehaviour
     Vector3 moveDirection;
 
     Rigidbody rb;
+    public float health;
+    public float maxHealth;
 
     private void Start()
     {
+
+        health = maxHealth;
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
 
         readyToJump = true;
         animControl = GetComponentInChildren<Animator>();
+
 
     }
 
@@ -73,12 +78,12 @@ public class PlayerMovement : MonoBehaviour
 
         if (horizontalInput > 0 || verticalInput > 0 || verticalInput < 0 || horizontalInput < 0) {
 
-            animControl.SetBool("Idle", false);
-            animControl.SetBool("Walking", true);
+            //animControl.SetBool("Idle", false);
+            //animControl.SetBool("Walking", true);
         }else {
 
-            animControl.SetBool("Idle", true);
-            animControl.SetBool("Walking", false);
+            //animControl.SetBool("Idle", true);
+            //animControl.SetBool("Walking", false);
 
         }
 
@@ -133,4 +138,32 @@ public class PlayerMovement : MonoBehaviour
     {
         readyToJump = true;
     }
+
+    public void TakeDamage(float damage) 
+    {
+
+        this.health -= damage;
+
+        if (this.health <= 0)
+        {
+
+            Destroy(gameObject);
+
+        }
+
+    }
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+
+        if (collision.gameObject.tag == "EnemyBullet")
+        {
+
+            TakeDamage(30f);
+
+        }
+
+    }
+
 }

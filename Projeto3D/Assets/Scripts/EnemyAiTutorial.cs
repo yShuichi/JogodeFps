@@ -8,6 +8,8 @@ public class EnemyAiTutorial : MonoBehaviour
 
     public Transform player;
 
+    public GameObject attackPoint;
+
     public LayerMask whatIsGround, whatIsPlayer;
 
     public float health;
@@ -28,7 +30,7 @@ public class EnemyAiTutorial : MonoBehaviour
 
     private void Awake()
     {
-        player = GameObject.Find("PlayerObj").transform;
+        player = GameObject.Find("PlayerRemake1").transform;
         agent = GetComponent<NavMeshAgent>();
     }
 
@@ -83,9 +85,9 @@ public class EnemyAiTutorial : MonoBehaviour
         if (!alreadyAttacked)
         {
             ///Attack code here
-            Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-            rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+            Rigidbody rb = Instantiate(projectile, attackPoint.transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+            rb.AddForce(transform.forward * 64f, ForceMode.Impulse);
+            //rb.AddForce(transform.up * 1f, ForceMode.Impulse);
             ///End of attack code
 
             alreadyAttacked = true;
