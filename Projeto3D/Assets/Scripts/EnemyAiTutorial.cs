@@ -80,7 +80,10 @@ public class EnemyAiTutorial : MonoBehaviour
         //Make sure enemy doesn't move
         agent.SetDestination(transform.position);
 
+
+       
         transform.LookAt(player);
+   
 
         if (!alreadyAttacked)
         {

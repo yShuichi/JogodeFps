@@ -18,7 +18,6 @@ public class EnemyAI : MonoBehaviour
     void Update()
     {
         
-        transform.LookAt(Jogador.transform.position);
         
     }
 
