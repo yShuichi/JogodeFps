@@ -102,7 +102,7 @@ public class EnemyAiTutorial : MonoBehaviour
         alreadyAttacked = false;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         health -= damage;
 
@@ -113,7 +113,7 @@ public class EnemyAiTutorial : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnCollisionEnter(Collision collision) 
+    /*private void OnCollisionEnter(Collision collision) 
     {
 
         if (collision.gameObject.tag == "Bullet") {
@@ -126,7 +126,7 @@ public class EnemyAiTutorial : MonoBehaviour
         }
 
 
-    }
+    }*/
 
     private void OnDrawGizmosSelected()
     {

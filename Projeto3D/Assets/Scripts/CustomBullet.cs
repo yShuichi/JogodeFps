@@ -38,6 +38,7 @@ public class CustomBullet : MonoBehaviour
     private void Start()
     {
         Setup();
+
         Destroy(gameObject, 10f);
     }
 
@@ -90,7 +91,7 @@ public class CustomBullet : MonoBehaviour
 
     }*/
 
-    /*private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
         //Don't count collisions with other bullets
         if (collision.collider.CompareTag("Bullet")) return;
@@ -107,17 +108,17 @@ public class CustomBullet : MonoBehaviour
 
 
             Debug.Log("Colidiu");
-            collision.gameObject.GetComponent<EnemyAI>().TakeDamage(damage);
+            collision.gameObject.GetComponent<EnemyAiTutorial>().TakeDamage(damage);
 
             Destroy(gameObject);
 
         }
-    }*/
+    }
 
     private void Setup()
     {
         //Create a new Physic material
-        physics_mat = new PhysicMaterial();
+        /*physics_mat = new PhysicMaterial();
         physics_mat.bounciness = bounciness;
         physics_mat.frictionCombine = PhysicMaterialCombine.Minimum;
         physics_mat.bounceCombine = PhysicMaterialCombine.Maximum;
@@ -125,6 +126,7 @@ public class CustomBullet : MonoBehaviour
         GetComponent<SphereCollider>().material = physics_mat;
 
         //Set gravity
+        */
         rb.useGravity = useGravity;
     }
 
