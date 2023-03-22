@@ -15,7 +15,7 @@ C:/Users/Noturno/Documents/GitHub/JogodeFps/Projeto3D
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-50142
+62468
 Successfully changed project path to: C:/Users/Noturno/Documents/GitHub/JogodeFps/Projeto3D
 C:/Users/Noturno/Documents/GitHub/JogodeFps/Projeto3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Noturno/Documents/GitHub/JogodeFps/Projeto3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25784] Host "[IP] 172.16.17.28 [Port] 0 [Flags] 2 [Guid] 3361282528 [EditorId] 3361282528 [Version] 1048832 [Id] WindowsEditor(7,LABJOGOS-28) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13128] Host "[IP] 172.16.17.28 [Port] 0 [Flags] 2 [Guid] 1042685356 [EditorId] 1042685356 [Version] 1048832 [Id] WindowsEditor(7,LABJOGOS-28) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25784] Host "[IP] 172.16.17.28 [Port] 0 [Flags] 2 [Guid] 3361282528 [EditorId] 3361282528 [Version] 1048832 [Id] WindowsEditor(7,LABJOGOS-28) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13128] Host "[IP] 172.16.17.28 [Port] 0 [Flags] 2 [Guid] 1042685356 [EditorId] 1042685356 [Version] 1048832 [Id] WindowsEditor(7,LABJOGOS-28) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 75.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Users/Noturno/Documents/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -69,94 +69,94 @@ Initialize mono
 Mono path[0] = 'C:/Users/Noturno/Documents/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/Noturno/Documents/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Users/Noturno/Documents/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/Noturno/Documents/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Users/Noturno/Documents/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003046 seconds.
+Registered in 0.002873 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 62.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.493 seconds
+- Completed reload, in  0.464 seconds
 Domain Reload Profiling:
-	ReloadAssembly (493ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (465ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (353ms)
-			LoadAssemblies (52ms)
+		EndReloadAssembly (334ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (90ms)
+			SetupTypeCache (73ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (202ms)
+			SetupLoadedEditorAssemblies (199ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
+				RefreshPlugins (71ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (94ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003285 seconds.
+Registered in 0.003418 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Noturno\Documents\GitHub\JogodeFps\Projeto3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Noturno\Documents\GitHub\JogodeFps\Projeto3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.714 seconds
+- Completed reload, in  0.783 seconds
 Domain Reload Profiling:
-	ReloadAssembly (715ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (553ms)
-			LoadAssemblies (56ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (622ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (187ms)
+			SetupTypeCache (216ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (242ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (274ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3258 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (1.3 MB). Loaded Objects now: 3718.
-Memory consumption went from 130.1 MB to 128.8 MB.
-Total: 2.484100 ms (FindLiveObjects: 0.222900 ms CreateObjectMapping: 0.098700 ms MarkObjects: 1.951800 ms  DeleteObjects: 0.210000 ms)
+Unloading 3272 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.3 MB). Loaded Objects now: 3746.
+Memory consumption went from 137.4 MB to 136.0 MB.
+Total: 2.511800 ms (FindLiveObjects: 0.241300 ms CreateObjectMapping: 0.110700 ms MarkObjects: 1.878700 ms  DeleteObjects: 0.280100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,10 +171,238 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 128569.255572 seconds.
-  path: Assets/Buildings/sewing.fbx
-  artifactKey: Guid(88b53642cda366144a6927b55d56f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Buildings/sewing.fbx using Guid(88b53642cda366144a6927b55d56f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b863dfb75a1bde739c4bdfe9cfa275') in 0.121591 seconds 
+  Time since last request: 138227.332719 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments
+  artifactKey: Guid(96b546518d43fdb4f8db80a81a3525dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments using Guid(96b546518d43fdb4f8db80a81a3525dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3098e864cedbcb45b27b52da8f4333') in 0.012202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.504801 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_asphalt_01.prefab
+  artifactKey: Guid(b2b896f074253c346ac142ca389d3c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_asphalt_01.prefab using Guid(b2b896f074253c346ac142ca389d3c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4de2effdea7a222c5260e93448f563') in 0.162305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_sidewalk_segment_03.prefab
+  artifactKey: Guid(d59da3d7b9c463c478d64b0722fd1ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_sidewalk_segment_03.prefab using Guid(d59da3d7b9c463c478d64b0722fd1ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb5f1950d71f36cc74264993911439f') in 0.034474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_10.prefab
+  artifactKey: Guid(8e3bf3e187a935d4f867c1af041ddfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_10.prefab using Guid(8e3bf3e187a935d4f867c1af041ddfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852563e914d9b3aa4edc226329831c57') in 0.038921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_15.prefab
+  artifactKey: Guid(aa562231f82a2664490d4cd36e223e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Prefabs/RoadSegments/sptp_road_segment_15.prefab using Guid(aa562231f82a2664490d4cd36e223e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13cd905a76144b1af5eadd4e0d8d9d55') in 0.038789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.453355 seconds.
+  path: Assets/SimplePoly - Town Pack/DemoScene
+  artifactKey: Guid(9466b19fc5cab754a9aa9bd2f1919fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/DemoScene using Guid(9466b19fc5cab754a9aa9bd2f1919fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3705a24a6e32395f1a4e1313986d171e') in 0.006677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.079293 seconds.
+  path: Assets/SimplePoly - Town Pack/DemoScene/DemoScene.unity
+  artifactKey: Guid(d03355cb2b2cc99428f6e1bfb113b182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/DemoScene/DemoScene.unity using Guid(d03355cb2b2cc99428f6e1bfb113b182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bb1dd04bf792dd7e4e1b3091868880') in 0.005373 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002958 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Noturno\Documents\GitHub\JogodeFps\Projeto3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Noturno\Documents\GitHub\JogodeFps\Projeto3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (818ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (620ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (1.3 MB). Loaded Objects now: 3757.
+Memory consumption went from 135.7 MB to 134.4 MB.
+Total: 2.434300 ms (FindLiveObjects: 0.201400 ms CreateObjectMapping: 0.105600 ms MarkObjects: 1.891200 ms  DeleteObjects: 0.235000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62.077401 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes
+  artifactKey: Guid(4f49fe5aa3579b94b9cb2edcea360b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes using Guid(4f49fe5aa3579b94b9cb2edcea360b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88592748ed5344a847949ea3ef4f23b8') in 0.010056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.266396 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/Terrain destroyed_city.asset
+  artifactKey: Guid(a7464d9a0a8339e41b7a7b292819d51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/Terrain destroyed_city.asset using Guid(a7464d9a0a8339e41b7a7b292819d51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bf0db66464887d125b702600992e83') in 0.074618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.895968 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city
+  artifactKey: Guid(27a31c061d12975498bdeab56f2d2ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city using Guid(27a31c061d12975498bdeab56f2d2ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b08f5ea2802a501706f3ed628aa55e') in 0.005712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116954 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-0.exr
+  artifactKey: Guid(f2762cea7f740bc489a92dcb8759cfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-0.exr using Guid(f2762cea7f740bc489a92dcb8759cfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edc0c9a5cad10474264d28a87ee13b1') in 0.068742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-6.exr
+  artifactKey: Guid(10069154d59c2624287cdaef8d72b3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-6.exr using Guid(10069154d59c2624287cdaef8d72b3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a660e179f9131be441e1982e11d21dc5') in 0.012559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-11.exr
+  artifactKey: Guid(88dc04d91a640414283437599fa99295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-11.exr using Guid(88dc04d91a640414283437599fa99295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58eba0a16b97ebaa75cd0c86958de7f') in 0.011586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-15.exr
+  artifactKey: Guid(4ee251adfc7eeaf4eb4c4e48744d54ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-15.exr using Guid(4ee251adfc7eeaf4eb4c4e48744d54ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91c9bf76e90a04f82027539152ca455') in 0.011031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-2.exr
+  artifactKey: Guid(18d710b663f8ae14d843bdf35688e26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-2.exr using Guid(18d710b663f8ae14d843bdf35688e26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560637b053968900d639183f9510d215') in 0.011533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-9.exr
+  artifactKey: Guid(99087af4266aa01409503bf9d353da4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-9.exr using Guid(99087af4266aa01409503bf9d353da4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ec96690b1fa16b592bcb12e485151f') in 0.010334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-4.exr
+  artifactKey: Guid(c60231e80a6603d4a9092aab70a5781b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-4.exr using Guid(c60231e80a6603d4a9092aab70a5781b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cdcfc771d02a4701bb0a447a1857e3') in 0.010592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-13.exr
+  artifactKey: Guid(883171961a972ef42a4d4aa8575b7924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-13.exr using Guid(883171961a972ef42a4d4aa8575b7924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f169fc9621f85227ae73f5cc57a8e5b7') in 0.010730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-6.exr
+  artifactKey: Guid(5bc2253b75b69fb46a8791a5c9bce972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-6.exr using Guid(5bc2253b75b69fb46a8791a5c9bce972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa6a64168a083ca2b4fef319a03ff98') in 0.010859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-2.exr
+  artifactKey: Guid(5521a5af10eb7a1488540cd048588500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-2.exr using Guid(5521a5af10eb7a1488540cd048588500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796a7cf0d7984a70d33a658d96577672') in 0.011062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-14.exr
+  artifactKey: Guid(600eccb082ffc824cb9ff0d0fd797c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-14.exr using Guid(600eccb082ffc824cb9ff0d0fd797c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890eab3212100b4ca5d9d203025f64ff') in 0.010150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-13.exr
+  artifactKey: Guid(7ebba6401ad4b08428ac68107d46b47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-13.exr using Guid(7ebba6401ad4b08428ac68107d46b47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfc79ef8233929d62b7cccd202d8a28') in 0.011853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-12.exr
+  artifactKey: Guid(e352794484cca5d40821e95258892f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapFar-12.exr using Guid(e352794484cca5d40821e95258892f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61d4fcecdfd60e2e8c83b5507205dd1') in 0.010819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-17.exr
+  artifactKey: Guid(4d2541c9ef05c2d4dbed99b3e22e543b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-17.exr using Guid(4d2541c9ef05c2d4dbed99b3e22e543b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286acb0d5d2624a582d8de4faff0bea0') in 0.010633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-1.exr
+  artifactKey: Guid(3a4a5f17724633b4eac2e81614cba227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-1.exr using Guid(3a4a5f17724633b4eac2e81614cba227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa50ea83ea8e1f433ee1a44a204266c') in 0.010611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-11.exr
+  artifactKey: Guid(09459019ac8f1ca4c968b2f025416011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-11.exr using Guid(09459019ac8f1ca4c968b2f025416011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21995fd5fff13bba662985c163d90738') in 0.010801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-14.exr
+  artifactKey: Guid(817def3ad1dc2224a946d865e9b84883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-14.exr using Guid(817def3ad1dc2224a946d865e9b84883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd38eb5a82e5533b814696122f2dbc31') in 0.010133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-10.exr
+  artifactKey: Guid(6bfa8598e085cd544a4bc94d4cf09cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city/LightmapNear-10.exr using Guid(6bfa8598e085cd544a4bc94d4cf09cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a09b272b44aa888649729bc08d81100') in 0.011180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.718237 seconds.
+  path: Assets/Destroyed_city_FREE/Scenes/destroyed_city.unity
+  artifactKey: Guid(dab52a771d551ca40930496e8e13757a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Destroyed_city_FREE/Scenes/destroyed_city.unity using Guid(dab52a771d551ca40930496e8e13757a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afa2866c7ead0529c4c59c16a637ccb') in 0.005647 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

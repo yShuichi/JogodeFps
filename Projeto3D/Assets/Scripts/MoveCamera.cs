@@ -5,11 +5,28 @@ using UnityEngine;
 public class MoveCamera : MonoBehaviour
 {
     public Transform cameraPos;
+    private ControladorJogo gameController;
+
+
+    void Start() {
+
+
+        gameController = GameObject.Find("GameController").GetComponent<ControladorJogo>();
+
+    }
 
     void Update()
     {
-        
-        transform.position =  cameraPos.position;
+        if (gameController.JogoON){
+
+            transform.position =  cameraPos.position;
+
+        }else {
+
+
+
+
+        }
 
     }
 }

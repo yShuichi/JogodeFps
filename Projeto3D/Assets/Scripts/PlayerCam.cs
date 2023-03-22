@@ -7,6 +7,8 @@ public class PlayerCam : MonoBehaviour
  
     public float sensX;
     public float sensY;
+
+    private ControladorJogo gameController;
     
     public Transform orientation;
     
@@ -16,21 +18,30 @@ public class PlayerCam : MonoBehaviour
     
     void Start()
     {
-    
+
+        gameController = GameObject.Find("GameController").GetComponent<ControladorJogo>();
+
     }
 
 
     void Update()
     {
-        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
-        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
 
-        yRotation += mouseX;
-        xRotation -= mouseY;
+        if (gameController.JogoON) {
 
-        xRotation = Mathf.Clamp(xRotation, -90, 90);
+            float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
+            float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * sensY;
 
-        transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
-        orientation.rotation = Quaternion.Euler(0, yRotation, 0);
+            yRotation += mouseX;
+            xRotation -= mouseY;
+
+            xRotation = Mathf.Clamp(xRotation, -90, 90);
+
+            transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
+            orientation.rotation = Quaternion.Euler(0, yRotation, 0);
+
+
+        }
+        
     }
 }

@@ -12,8 +12,15 @@ using TMPro;
 /// Dave
 public class ProjectileGun : MonoBehaviour
 {
+
+    //Audio
+
+    public AudioSource audioSource;
+
     //bullet 
     public GameObject bullet;
+
+    private ControladorJogo gameController;
 
     //bullet force
     public float shootForce, upwardForce;
@@ -50,11 +57,17 @@ public class ProjectileGun : MonoBehaviour
         //make sure magazine is full
         bulletsLeft = magazineSize;
         readyToShoot = true;
+        gameController = GameObject.Find("GameController").GetComponent<ControladorJogo>();
     }
 
     private void Update()
     {
-        MyInput();
+        if (gameController.JogoON) {
+
+            MyInput();
+
+        }
+        
 
         //Set ammo display, if it exists :D
         //if (ammunitionDisplay != null)
@@ -120,6 +133,9 @@ public class ProjectileGun : MonoBehaviour
             muzzleFlashInstance = Instantiate(muzzleFlash, attackPoint.position, Quaternion.identity);
             muzzleFlashInstance.transform.parent = muzzleFlashParent.transform;
             Destroy(muzzleFlashInstance, 0.3f);
+
+        //Play Audio
+        audioSource.Play();
 
         bulletsLeft--;
         bulletsShot++;

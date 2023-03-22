@@ -8,6 +8,8 @@ public class EnemyAiTutorial : MonoBehaviour
 
     public Transform player;
 
+    private ControladorJogo gameController;
+
     public GameObject attackPoint;
 
     public LayerMask whatIsGround, whatIsPlayer;
@@ -32,6 +34,7 @@ public class EnemyAiTutorial : MonoBehaviour
     {
         player = GameObject.Find("PlayerRemake1").transform;
         agent = GetComponent<NavMeshAgent>();
+        gameController = GameObject.Find("GameController").GetComponent<ControladorJogo>();
     }
 
     private void Update()
@@ -40,9 +43,9 @@ public class EnemyAiTutorial : MonoBehaviour
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
 
-        if (!playerInSightRange && !playerInAttackRange) Patroling();
-        if (playerInSightRange && !playerInAttackRange) ChasePlayer();
-        if (playerInAttackRange && playerInSightRange) AttackPlayer();
+        if (!playerInSightRange && !playerInAttackRange && gameController.JogoON) Patroling();
+        if (playerInSightRange && !playerInAttackRange && gameController.JogoON) ChasePlayer();
+        if (playerInAttackRange && playerInSightRange && gameController.JogoON) AttackPlayer();
     }
 
     private void Patroling()
@@ -110,6 +113,7 @@ public class EnemyAiTutorial : MonoBehaviour
     }
     private void DestroyEnemy()
     {
+        gameController.enemiesAlive -= 1;
         Destroy(gameObject);
     }
 

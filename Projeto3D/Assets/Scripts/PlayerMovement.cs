@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
 
     public float groundDrag;
 
+    private ControladorJogo gameController;
+
     public float jumpForce;
     public float jumpCooldown;
     public float airMultiplier;
@@ -47,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
 
         readyToJump = true;
         animControl = GetComponentInChildren<Animator>();
+        gameController = GameObject.Find("GameController").GetComponent<ControladorJogo>();
 
 
     }
@@ -54,10 +57,18 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         // ground check
+
+
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, whatIsGround);
 
-        MyInput();
-        SpeedControl();
+        if (gameController.JogoON) {
+
+            MyInput();
+            SpeedControl();
+
+        }
+        
+        
 
         // handle drag
         if (grounded)
@@ -68,7 +79,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        MovePlayer();
+
+        if (gameController.JogoON) {
+
+            MovePlayer();
+        }
     }
 
     private void MyInput()
@@ -146,8 +161,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (this.health <= 0)
         {
-
-            Destroy(gameObject);
+            
+            gameController.Reiniciar();
+            
 
         }
 
@@ -161,6 +177,7 @@ public class PlayerMovement : MonoBehaviour
         {
 
             TakeDamage(30f);
+            Destroy(collision.gameObject);
 
         }
 

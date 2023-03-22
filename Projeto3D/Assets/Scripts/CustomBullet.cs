@@ -32,6 +32,9 @@ public class CustomBullet : MonoBehaviour
     public float maxLifetime;
     public bool explodeOnTouch = true;
 
+    //Effect
+    public GameObject hitEffect;
+
     int collisions;
     PhysicMaterial physics_mat;
 
@@ -109,6 +112,9 @@ public class CustomBullet : MonoBehaviour
 
             Debug.Log("Colidiu");
             collision.gameObject.GetComponent<EnemyAiTutorial>().TakeDamage(damage);
+            GameObject tempEffect = Instantiate(hitEffect, gameObject.transform.position, Quaternion.identity);
+
+            Destroy(tempEffect, 3);
 
             Destroy(gameObject);
 
