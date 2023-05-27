@@ -376,7 +376,7 @@
 "Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs"
 "Assets/JMO Assets/WarFX/Spawn System/CFX_SpawnSystem.cs"
 "Assets/Scripts/AmmoBox.cs"
-"Assets/Scripts/ControladorJogo.cs"
+"Assets/Scripts/ControladorJogoWAVES.cs"
 "Assets/Scripts/CustomBullet.cs"
 "Assets/Scripts/EnemyAI.cs"
 "Assets/Scripts/EnemyAiTutorial.cs"
